@@ -20,9 +20,11 @@ heading.classList.add('colors');
 result.insertBefore(heading, first);
 
 const smallHeading = document.createElement('h6');
-const smallText = document.createTextNode('yay');
+const smallText = document.createTextNode('small heading text');
 
 smallHeading.classList.add('blue');
+smallHeading.appendChild(smallText);
+document.body.replaceChild(smallHeading, bodyDiv);
 
 
 console.log(result.children);
