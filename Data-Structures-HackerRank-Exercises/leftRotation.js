@@ -3,7 +3,7 @@
 
 function leftRotations(arr, d) {
     let inputArray = arr.slice(); // [1,2,3,4,5] just a shallow copy of the arr
-    console.log(inputArray);
+    console.log(inputArray); 
     for(let i = 0; i < d; i++){
         let temp = inputArray.shift(); // 1
         console.log(temp);
