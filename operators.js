@@ -1,3 +1,8 @@
+// there are 7 data types in JS: primitive and object
+// primitive: string, number, boolean, symbol, null and undefined
+// object: arrays, functions, objects
+// typeof operator
+
 // Null and Undefined
 // both represent "no value"
 

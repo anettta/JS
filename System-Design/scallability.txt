@@ -1,0 +1,11 @@
+vertical scaling:
+
+if you ran out of RAM -> buy more RAM
+
+constraints: you can get RAM that have max memory space. 
+
+more CPUs.
+
+
+
+

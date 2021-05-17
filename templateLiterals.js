@@ -1,5 +1,5 @@
 // Template Literals - ES6+
-// Backtick characters `` 
+// Backtick characters `` template strings
 // Interpolation ${} - insert expression(value)
 
 const name = 'John'
