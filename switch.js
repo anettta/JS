@@ -13,5 +13,6 @@ switch (dice) {
     break;
 
   default:
+    console.log("you did not roll the dice");
     break;
 }
