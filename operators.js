@@ -9,7 +9,7 @@
 
 // null - "developer sets the value";
 
-let number = 20 + null // 20 + 0;
+let number = 20 + null; // 20 + 0;
 
 // truthy and falsy
 // "", '', ``, 0, -0, NaN, false, null, undefined
@@ -19,15 +19,14 @@ const bool2 = 2 > 1;
 
 const text = ``;
 
-if (text){
-    console.log('the value is truthy');
-
+if (text) {
+  console.log("the value is truthy");
 } else {
-        console.log('the value is falsy');
+  console.log("the value is falsy");
 }
 
 // unary operator - typeof
-let text = 'text';
+let text = "text";
 console.log(typeof text);
 
 // binary operator - assignment
@@ -38,4 +37,3 @@ let num2 = 2 + 6;
 
 const value = 1 < 0;
 value ? console.log("true") : console.log("false");
-
