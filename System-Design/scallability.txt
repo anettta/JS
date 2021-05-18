@@ -2,7 +2,7 @@ vertical scaling:
 
 if you ran out of RAM -> buy more RAM
 
-constraints: you can get RAM that have max memory space. 
+constraints: you can get RAM but it doesn't have unlimited memory space. 
 
 more CPUs.
 
