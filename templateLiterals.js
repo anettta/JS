@@ -2,6 +2,6 @@
 // Backtick characters `` template strings
 // Interpolation ${} - insert expression(value)
 
-const name = 'John'
-const value = `Hey it's ${name} ` // you dont worry about quotation marks, spaces, pluses 
+const name = "Anna";
+const value = `Hey it's ${name} `; // you dont worry about quotation marks, spaces, pluses
 console.log(value);
