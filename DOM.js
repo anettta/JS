@@ -1,24 +1,23 @@
-// DOM
+// DOM - DOCUMENT OBJECT MODEL
 
-// select the element
+// STEP 1: select the element
 
-// decide the effect we want to apply to the selection
+// STEP 2: decide the effect we want to apply to the selection
 
-document.body.style.backgroundColor = 'yellow';
+// we are selecting a body and applying changes to it
+document.body.style.backgroundColor = "yellow";
 
-document.getElementById('btn').style.color = 'purple';
+// IDs need to MATCH
+document.getElementById("btn").style.color = "purple";
 
-//assign to a variable
+// we can assign selected element to a variable
+var btn = document.getElementById("btn");
 
-var btn = document.getElementById('btn');
-
-// do sth
-
-document.querySelector('btn'); // do something
+document.querySelector("btn"); // do something
 
 // returns a node object or a node list
 
-const name = btn.nodeName;
+const name = btn.nodeName; // BUTTON
 
 const css = btn.style;
 
