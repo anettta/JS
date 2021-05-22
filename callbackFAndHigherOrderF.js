@@ -19,7 +19,8 @@ function afternoon(name) {
 
 function greet(name, cb) {
   // higher order
-
+  // we are making higher order function flexible
+  // we do not invoke callback function here
   const myName = "anna";
   console.log(`${cb(name)}, my name is ${myName}`);
 }
