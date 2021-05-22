@@ -10,5 +10,8 @@ const people = [
 ];
 
 const total = people.reduce(function (acc, currItem) {
+  console.log(`total ${acc}`);
+  console.log(`current money : ${currItem.salary}`);
+  acc += currItem.salary;
   return acc; // YOU MUST RETURN AN ACCUMULATOR
 }, 0); // 0 is the value we are returning (a number or an array or an object {})
