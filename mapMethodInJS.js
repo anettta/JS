@@ -18,3 +18,9 @@ const ages = people.map(function (person) {
 const newPeople = people.map(function (person) {
   return { firstName: person.name.toUpperCase(), oldAge: person.age + 20 };
 });
+
+const names = people.map(function (person) {
+  return `<h1>${person.name}</h1>`;
+});
+
+document.body.innerHTML = names.join(""); // '' to omit commas
