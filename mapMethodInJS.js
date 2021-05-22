@@ -11,4 +11,10 @@ const people = [
 
 const ages = people.map(function (person) {
   // new array since we assigned it to a new variable
+  // depends on how many items are in original array
+  return person.age + 20;
+});
+
+const newPeople = people.map(function (person) {
+  return { firstName: person.name.toUpperCase(), oldAge: person.age + 20 };
 });
