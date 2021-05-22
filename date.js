@@ -2,19 +2,21 @@
 
 const date = new Date(`1/12/2004`);
 
-const month = date.getMonth();
+const months = ["Jan", "Feb", "Mar", "Apr", "May"];
 
-const day = date.getDay();
+const days = ["Mon", "Tue"];
 
-const months = ["Jan", "Feb", "Mar", "Apr","May"];
+const month = date.getMonth(); // just to return index
 
-const days = ["Mon", "Tue"]
+const day = date.getDay(); // just to return index
 
 console.log(months[month]);
 
 console.log(days[day]);
 
-const sentence = `${days[day]}, ${date.getDate()} ${months[month]} ${date.getFullYear()}`;
+const sentence = `${days[day]}, ${date.getDate()} ${
+  months[month]
+} ${date.getFullYear()}`;
 
 console.log(sentence);
 
