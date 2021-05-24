@@ -1,23 +1,24 @@
-// className
-// classList
+// className - overrides if re-assigned later
 
-const first = document.getElementById('first');
-const second = document.getElementById('second');
-const third = document.getElementById('third');
+// classList - dynamically, updating when adding new classes
+
+const first = document.getElementById("first");
+const second = document.getElementById("second");
+const third = document.getElementById("third");
 
 // const classValue = first.className; // colors
 
-second.className = 'colors text';
+second.className = "colors text";
 
 const classValue = third.classList;
 
-third.classList.add('colors', 'text');
-third.classList.remove('text');
+third.classList.add("colors", "text");
+third.classList.remove("text");
 
-let result = third.classList.contains('text');
+let result = third.classList.contains("text");
 
-if (result){
-    console.log('hi there');
+if (result) {
+  console.log("hi there");
 } else {
-      console.log('no class');
+  console.log("no class");
 }
