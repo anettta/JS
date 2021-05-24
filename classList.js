@@ -12,7 +12,7 @@ second.className = "colors text";
 
 const classValue = third.classList;
 
-third.classList.add("colors", "text");
+third.classList.add("colors", "text"); // add comma
 third.classList.remove("text");
 
 let result = third.classList.contains("text");
